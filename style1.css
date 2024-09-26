@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-
+@import url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc1YWltaHAxbzNsb3NzZTgwcXZuaW55ZWh3dnFhdnNvbXQ1NzhsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cpkQpkVFOOoNi/giphy.webp');
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 42px;
@@ -16,4 +16,41 @@ h1 {
   transition: all 0.3s ease;
   user-select: none;
   pointer-events: none;
+}
+
+/* Appliquer le GIF en arrière-plan du corps */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc1YWltaHAxbzNsb3NzZTgwcXZuaW55ZWh3dnFhdnNvbXQ1NzhsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cpkQpkVFOOoNi/giphy.webp') no-repeat center center fixed;
+  background-size: cover; /* Ajuster la taille du background */
+  overflow: hidden; /* Masquer les éventuels débordements */
+}
+
+/* Style du contenu pour qu'il soit visible par-dessus le background */
+.content {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: none;
+  color: #0ff;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+  background-color: #1a1a1a;
+  border: 3px solid #0ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  user-select: none;
+  pointer-events: none;
+  width: 25%;
 }
