@@ -40,7 +40,7 @@ h2 {
   font-family: 'Orbitron', sans-serif;
   font-size: none;
   color: #0ff;
-  text-align: left;
+  text-align: none;
   padding: 20px;
   margin: 20px;
   background-color: #1a1a1a;
@@ -52,5 +52,5 @@ h2 {
   transition: all 0.3s ease;
   user-select: none;
   pointer-events: none;
-  width: 25%;
+  width: 14%;
 }
