@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affichage PDF en petites cases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .pdf-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+            gap: 20px;
+        }
+        .pdf-item {
+            width: 100%;
+            padding-top: 100%; /* Pour un ratio 1:1 */
+            position: relative;
+        }
+        .pdf-item iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #ccc;
+        }
+        .pdf-links {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Certification CNIL</h1>
+
+    <div class="pdf-links">
+        <a href="Certificat_ (4).pdf" onclick="document.getElementById('pdf1').src='pdf1.pdf';">PDF 1</a> | 
+        <a href="Attestation_de_suivi.pdf" onclick="document.getElementById('pdf2').src='pdf2.pdf';">PDF 2</a> | 
+        <a href="Certificat_3.pdf" onclick="document.getElementById('pdf3').src='pdf3.pdf';">PDF 3</a> | 
+        <a href="Certificat_1.pdf" onclick="document.getElementById('pdf4').src='pdf4.pdf';">PDF 4</a> | 
+        <a href="Certificat_2.pdf" onclick="document.getElementById('pdf5').src='pdf5.pdf';">PDF 5</a>
+    </div>
+
+    <div class="pdf-grid">
+        <div class="pdf-item">
+            <iframe id="pdf1" src="Certificat_ (4).pdf" title="PDF 1"></iframe>
+        </div>
+        <div class="pdf-item">
+            <iframe id="pdf2" src="Attestation_de_suivi.pdf" title="PDF 2"></iframe>
+        </div>
+        <div class="pdf-item">
+            <iframe id="pdf3" src="Certificat_3.pdf" title="PDF 3"></iframe>
+        </div>
+        <div class="pdf-item">
+            <iframe id="pdf4" src="Certificat_1.pdf" title="PDF 4"></iframe>
+        </div>
+        <div class="pdf-item">
+            <iframe id="pdf5" src="Certificat_2.pdf" title="PDF 5"></iframe>
+        </div>
+    </div>
+
+    <hr width="50%">
+    <center><a href="../index.html">Retour principale</a></center>
+</body>
+</html>
