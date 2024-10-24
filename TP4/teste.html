@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Stylisée</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #524c4c;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color:  #ffb700;
+            /* Couleur du FC Barcelone */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Section contenant les 3 div principaux */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        /* Style des blocks principaux */
+        .block {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Fixer une hauteur minimale pour les blocs */
+        .block {
+            min-height: 400px;
+            /* Ajustez cette valeur si nécessaire */
+        }
+
+        /* Style du titre et de la description */
+        .title-block {
+            background-color: #ffb700;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .description-block {
+            background-color: #d2abab;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;
+            /* Permet au bloc de description de prendre tout l'espace disponible */
+        }
+
+        /* Style de l'image */
+        .image-block {
+            margin-top: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color:  #ffb700;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Style du bouton retour */
+        .back-button {
+            background-color: #ffcc00;
+            /* Couleur du bouton */
+            color: #003366;
+            /* Couleur du texte */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            /* Supprime le soulignement */
+        }
+
+        .back-button:hover {
+            background-color: #e6b800;
+            /* Couleur du bouton au survol */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        GOGETA
+    </header>
+
+    <!-- Section avec 3 div principaux -->
+    <section class="container">
+        <!-- Block 1 -->
+        <div class="block">
+            <div class="title-block">
+                <h2>Introduction</h2>
+            </div>
+            <div class="description-block">
+                <p>Gogeta est un personnage emblématique de l'univers **Dragon Ball**, une fusion puissante entre **Goku** et **Végéta**, deux des héros les plus puissants de la série. Il combine leurs forces pour devenir un des guerriers les plus redoutables.</p>
+            </div>
+        </div>
+
+        <!-- Block 2 -->
+        <div class="block">
+            <div class="title-block">
+                <h2>GOGETA</h2>
+            </div>
+            <div class="description-block">
+                <div class="image-block">
+                    <img src="https://i.pinimg.com/564x/ea/6f/e9/ea6fe969b118b8d339e94692e9457ca3.jpg" alt="Lionel Messi">
+                </div>
+            </div>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="block">
+            <div class="title-block">
+                <h2>Résumé</h2>
+            </div>
+            <div class="description-block">
+                <p>Apparu dans plusieurs films et séries Dragon Ball, Gogeta est un personnage célèbre pour sa puissance et ses compétences hors du commun, combinant les traits caractéristiques de Goku et Végéta.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="indexTP4.html" class="back-button">Retour</a>
+    </footer>
+
+</body>
+
+</html>

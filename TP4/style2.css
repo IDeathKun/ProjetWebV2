@@ -1,0 +1,34 @@
+.block11, .block12, .block13 {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    max-width: 400px; 
+    
+}
+
+.block11 {
+    float: left;
+}
+
+.block12 {
+    clear: both;
+}
+
+.block13 {
+    float: right;
+}
+
+
+.blockheader {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
