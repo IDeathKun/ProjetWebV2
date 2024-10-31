@@ -1,56 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-@import url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc1YWltaHAxbzNsb3NzZTgwcXZuaW55ZWh3dnFhdnNvbXQ1NzhsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cpkQpkVFOOoNi/giphy.webp');
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 42px;
-  color: #0ff;
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
-  background-color: #1a1a1a;
-  border: 3px solid #0ff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  transition: all 0.3s ease;
-  user-select: none;
-  pointer-events: none;
-}
 
-/* Appliquer le GIF en arrière-plan du corps */
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc1YWltaHAxbzNsb3NzZTgwcXZuaW55ZWh3dnFhdnNvbXQ1NzhsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cpkQpkVFOOoNi/giphy.webp') no-repeat center center fixed;
-  background-size: cover; /* Ajuster la taille du background */
-  overflow: hidden; /* Masquer les éventuels débordements */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDc1YWltaHAxbzNsb3NzZTgwcXZuaW55ZWh3dnFhdnNvbXQ1NzhsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cpkQpkVFOOoNi/giphy.webp') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
-/* Style du contenu pour qu'il soit visible par-dessus le background */
-.content {
-  color: white;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
 }
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    color: #0ff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #1a1a1a;
+    border: 3px solid #0ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    user-select: none;
+    pointer-events: none;
+}
+
 h2 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: none;
-  color: #0ff;
-  text-align: none;
-  padding: 20px;
-  margin: 20px;
-  background-color: #1a1a1a;
-  border: 3px solid #0ff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  transition: all 0.3s ease;
-  user-select: none;
-  pointer-events: none;
-  width: 14%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: #0ff;
+    padding: 15px;
+    margin: 10px;
+    background-color: #1a1a1a;
+    border: 3px solid #0ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 0 15px;
+    margin-bottom: 25px;
+}
+
+ul.menu li a {
+    color: #0ff;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border: 2px solid #0ff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul.menu li a:hover {
+    background-color: #0ff;
+    color: #1a1a1a;
 }

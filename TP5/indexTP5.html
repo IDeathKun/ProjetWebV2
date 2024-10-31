@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <script src="cacl.js"></script>
+    <link rel="stylesheet" href="cacl.css">
+</head>
+<body>
+    <center>
+        <h1>TP5 Calculatrice en JS</h1>
+    </center>
+    <div>
+        <input type="number" class="t" placeholder="Premier chiffre" name="t1" id="t1">
+        <input type="number" class="t" placeholder="deuxieme chiffre" type="number" name="t2" id="t2">
+    </div>
+
+    <div>
+        <button onclick="addition()">+</button>
+        <button onclick="soustraction()">-</button>
+        <button onclick="division()">/</button>
+        <button onclick="multipication()">x</button>
+    </div>
+
+    <div>
+        <button onclick="parite()">Parite</button>
+        <button onclick="permute()">Permute</button>
+    </div>
+
+    <div>
+        <input type="text" class="t34" placeholder="Résultat" name="t3" readonly>
+        <input type="text" class="t34" placeholder="Pair ou Impaire?" name="t4" readonly>
+    </div>
+</body>
+</html>
