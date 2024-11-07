@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture en JavaScript</title>
+    <link rel="stylesheet" href="facture.css">
+    <script src="facture.js"></script>
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>TP Facture JS</h1>
+        <div class="grid">
+            <div>Article :</div>
+            <div>Prix :</div>
+            <div>Quantité :</div>
+            <div>Résultat :</div>
+            
+            <input type="text" id="article1" placeholder="Nom de l'article">
+            <input type="number" id="prix1" placeholder="Entrez la valeur">
+            <input type="number" id="quantite1" placeholder="Entrez la quantité">
+            <input type="number" id="resultat1" disabled>
+            
+            <input type="text" id="article2" placeholder="Nom de l'article">
+            <input type="number" id="prix2" placeholder="Entrez la valeur">
+            <input type="number" id="quantite2" placeholder="Entrez la quantité">
+            <input type="number" id="resultat2" disabled>
+            
+            <input type="text" id="article3" placeholder="Nom de l'article">
+            <input type="number" id="prix3" placeholder="Entrez la valeur">
+            <input type="number" id="quantite3" placeholder="Entrez la quantité">
+            <input type="number" id="resultat3" disabled> 
+        </div>
+        
+        <button onclick="calculer()">Résultat</button>
+        <button onclick="reinitialiser()">Réinitialiser</button>
+        
+        <div style="margin-top: 20px;">
+            <strong>Total :</strong> <input type="number" id="total" disabled>
+        </div>
+    </div>
+
+    <div class="retour">
+        <a href="../index.html">
+            <button>Retour à l'accueil</button>
+        </a>
+    </div>
+
+    
+
+     
+</body>
+</html>

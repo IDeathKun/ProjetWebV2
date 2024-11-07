@@ -36,7 +36,7 @@ button {
     margin: 5px;
     border: none;
     border-radius: 5px;
-    background-color: #007BFF;
+    background-color: #1bc231;
     color: white;
     font-size: 18px;
     cursor: pointer;
@@ -45,7 +45,7 @@ button {
 
 /* Button hover effect */
 button:hover {
-    background-color: #0056b3;
+    background-color: #197d38;
 }
 
 /* Special result fields */

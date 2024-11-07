@@ -1,0 +1,47 @@
+      /* Pierre-Lâm Nguyen */ 
+       
+       body {
+            background-image: url(https://i.imgflip.com/33lbs4.gif);
+            background-color: rgb(114, 108, 109);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #c5b913;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 2px;
+            border: none;
+            text-align: center;
+        }
+        button {
+            background-color: #0b5aee;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0e316e;
+        }
+        .retour {
+            position: fixed; /* Fixe le bouton en bas de la page */
+            bottom: 20px; /* Décalage de 20px depuis le bas */
+            left: 50%; /* Centré horizontalement */
+            transform: translateX(-50%); /* Ajuste l'alignement exact */
+            text-align: center;
+            width: 100%; /* S'assure que la largeur est complète */
