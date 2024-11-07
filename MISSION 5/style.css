@@ -32,6 +32,7 @@
 
 .sec-droite {
     margin-left: 150px;
+    margin-top: 37px;
 
 
 }
@@ -51,3 +52,23 @@
     font-weight: bold;
     font-size: 20px;
  }
+
+#forma-gauche p{
+    margin-bottom: 45px;
+}
+
+#exp-gauche p{
+    margin-bottom: 60px;
+}
+
+#lang-droite-suv p{
+    margin-top: 42px;
+}
+
+#lang-droite p{
+    line-height: 25px;
+}
+
+#interet-exp p{
+    margin-bottom: 49px;
+}
