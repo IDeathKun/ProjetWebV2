@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Anime</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Quiz Anime</h1>
+  <form id="quiz-form">
+    <!-- Question 1 -->
+    <div class="question">
+      <h2>1. Dans quel anime trouve-t-on le personnage de Luffy ?</h2>
+      <ul class="options">
+        <li><input type="radio" name="q1" value="One Piece" /> One Piece</li>
+        <li><input type="radio" name="q1" value="Naruto" /> Naruto</li>
+        <li><input type="radio" name="q1" value="Bleach" /> Bleach</li>
+      </ul>
+    </div>
+    <!-- Question 2 -->
+    <div class="question">
+      <h2>2. Qui est le protagoniste de Naruto ?</h2>
+      <ul class="options">
+        <li><input type="radio" name="q2" value="Naruto Uzumaki" /> Naruto Uzumaki</li>
+        <li><input type="radio" name="q2" value="Sasuke Uchiha" /> Sasuke Uchiha</li>
+        <li><input type="radio" name="q2" value="Kakashi Hatake" /> Kakashi Hatake</li>
+      </ul>
+    </div>
+
+    <div class="question">
+        <h2>3. Combien de super transformation possède Goku ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q3" value="7" /> 7</li>
+          <li><input type="radio" name="q3" value="8" /> 8</li>
+          <li><input type="radio" name="q3" value="15" /> 15</li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <h2>4. Quel est le but de Gon dans l’anime Hunter x Hunter ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q4" value="Devenir le meilleur chasseur du monde" /> Devenir le meilleur chasseur du monde</li>
+          <li><input type="radio" name="q4" value="Retrouver son père" /> Retrouver son père</li>
+          <li><input type="radio" name="q4" value="15" /> 15</li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <h2>5. Dans My Hero Academia, quel est le pouvoir principal d’Izuku Midoriya ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q5" value="Télékinésie" /> Télékinésie</li>
+          <li><input type="radio" name="q5" value="Contrôle du feu" /> Contrôle du feu</li>
+          <li><input type="radio" name="q5" value="One For All" /> One For All</li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <h2>6. Quel est l’objectif de l’équipage du Chapeau de Paille dans One Piece ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q6" value="Devenir le rois des pirates" /> Devenir le rois des pirates</li>
+          <li><input type="radio" name="q6" value="Détruire la marine" /> Détruire la marine</li>
+          <li><input type="radio" name="q6" value="Prendre le contrôle de Grand Line" /> Prendre le contrôle de Grand Line</li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <h2>7. Dans Tokyo Ghoul, qui est le protagoniste principal ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q7" value="Ken Kaneki" /> Ken Kaneki</li>
+          <li><input type="radio" name="q7" value="Touka Kirishima" /> Touka Kirishima</li>
+          <li><input type="radio" name="q7" value="Arima Kishou" /> Arima Kishou</li>
+        </ul>
+      </div>
+    
+      <div class="question">
+        <h2>8. Dans Dragon Ball, quelle est la transformation la plus puissante de Goku ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q8" value="Super Saiyan 3" /> Super Saiyan 3</li>
+          <li><input type="radio" name="q8" value="Super Saiyan God" /> Super Saiyan God</li>
+          <li><input type="radio" name="q8" value="Perfect Ultra Instinct" /> Perfect Ultra Instinct</li>
+        </ul>
+      </div>
+    
+      <div class="question">
+        <h2>9. Quel anime met en scène des alchimistes cherchant la Pierre Philosophale ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q9" value="Fullmetal Alchemist" /> Fullmetal Alchemist</li>
+          <li><input type="radio" name="q9" value="Sword Art Online" /> Sword Art Online</li>
+          <li><input type="radio" name="q9" value="Fairy Tail" /> Fairy Tail</li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <h2>10. Dans quel anime le Death Note est-il un objet central ?</h2>
+        <ul class="options">
+          <li><input type="radio" name="q10" value="Tokyo Ghoul" /> Tokyo Ghoul </li>
+          <li><input type="radio" name="q10" value="Attack on Titan" /> Attack on Titan</li>
+          <li><input type="radio" name="q10" value="Death Note" /> Death Note</li>
+        </ul>
+      </div>
+
+    
+    
+    
+    <button type="button" id="check-answers">Corriger</button>
+    <button type="button" id="view-correction" style="display: none;">Voir la correction complète</button>
+
+    <div class="result" id="result" style="display: none;"></div>
+  </form>
+
+  <center><a href="../index.html"><button>Retour</button></a></center>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
